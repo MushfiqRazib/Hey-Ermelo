@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WebShopMaster.master.cs" Inherits="MasterPage_WebShopMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<%@ Register TagPrefix="ucl" TagName="NavigatorControl" Src="~/Controls/Navigation.ascx" %>
+<%@ Register TagPrefix="ucl" TagName="HeaderControl" Src="~/Controls/Header.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Web Shop Module: Home</title>
+    <link href="../css/WebShopModule.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" EnablePartialRendering="true">
+    </asp:ToolkitScriptManager>
+    <%--<asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true">
+    </asp:ScriptManager>--%>
+            <div id="Header" class="HeaderContainer">
+              <ucl:HeaderControl ID="HeaderControl1" runat="server"/>
+            </div> 
+            <div id="NavigationConatiner" class="NavigationContainer">
+                <ucl:NavigatorControl ID="NavigatorControl1" runat="server" />
+            </div>
+            <div id="content" class="ContentSection">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">                 
+                </asp:ContentPlaceHolder>                
+            </div>      
+    </form>
+</body>
+</html>

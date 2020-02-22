@@ -1,0 +1,703 @@
+﻿.body
+{
+    margin: 0 auto;
+    min-height: 100%;
+    top: 0;
+    width: 910px;
+}
+
+.HeaderContainer
+{
+  width: 910px;
+}
+
+.NavigationContainer
+{
+  /*background-color: #EAF6FF;
+  border: 3px solid #D6ECFF;*/
+  float: left;
+  margin-right: 15px;
+  margin-top: 10px;
+  width: 210px;
+}
+
+.ContentSection
+{
+  height: 700px;
+  float: left;
+  margin-top: 10px;
+  float: left;
+}
+
+.headercontent
+{
+  width: 910px; /*height: 60px;  */
+}
+.controlpane
+{
+  height: 35px;
+  background-color: #d2d2d2;
+}
+
+.headertext
+{
+  float: left;
+  text-align: right;
+  margin-top: 9px;
+  font-size: 16px;
+  font-family: Tahoma;
+  font-weight: bold;
+  width: 425px;
+}
+
+.loginpane
+{
+  width: 280px;
+  float: left;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.mainsearchdiv
+{
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.EmptyDiv
+{
+  width: 910px;
+  background-color: #efefef;
+  height: 40px;
+}
+
+.SearchResultPane
+{
+  /*width:1366px;*/
+  background-color: #efefef;
+  height: 220px;
+  padding: 18px 0 0 5px;
+}
+.SearchContentDiv
+{
+  width: 895px;
+  border: solid 2px #c2cdd3;
+  height: 200px;
+}
+.searchlabel
+{
+  font-family: Tahoma;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.searchresultcontainerdiv
+{
+  width: 910px;
+}
+.searchresultcontroldiv
+{
+  font-size:12px;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+.outerpanel
+{
+  float: left;
+  border: solid 2px silver;
+  background-color: #A6A6A6;
+}
+.itempanel
+{
+  float: left; /*to keep the items in horizontal*/
+  border: solid 1px gray;
+  background-color: silver;
+  margin: 2px;
+  padding: 5px 2px 5px 2px;
+  color: #606060;
+  font-family: Tahoma;
+  font-size: small;
+}
+
+.searchbtnimage
+{
+  background-image: url(../images/searchbtn.png);
+  margin-top: 5px;
+}
+
+.MenuHeaderDiv
+{
+  height: 18px;
+  margin: 5px 0 5px 5px;
+}
+
+.MenuHeader
+{
+  color: #678fb3;
+  font-family: Tahoma;
+  font-size: 12px;
+  font-weight: bold;
+}
+.imgposition
+{
+  float: right;
+}
+.MenuList
+{
+  margin-left: 10px;
+  font-family: Tahoma;
+  font-size: 12px;
+  font-weight: bold;
+  color: #678FB3;
+}
+.MenuList a:link
+{
+  color: #678fb3;
+  text-decoration: none;
+}
+
+.MenuList a:link:hover
+{
+  text-decoration: none;
+  background-color: Green;
+}
+
+a.imjusttext
+{
+  color: #000000;
+  text-decoration: none;
+}
+a.imjusttext:hover
+{
+  text-decoration: none;
+}
+
+
+.watermarked
+{
+  background-color: #F0F8FF;
+  border: 1px solid #BEBEBE;
+  color: gray;
+  height: 20px;
+  padding: 2px 0 0 2px;
+  font-style: italic;
+}
+
+.searchwatermarked
+{
+  background-color: #F0F8FF;
+  border: 1px solid #BEBEBE;
+  color: gray;
+  height: 22px;
+  padding: 2px 0 0 2px;
+  width: 155px;
+  font-style: italic;
+  font-size: 11px;
+}
+
+.filterpage
+{
+  float: left;
+}
+.filterpane
+{
+  background-color: #eaf6ff;
+  float: left;
+  height: 200px;
+  width: 670px;
+  margin-left: 5px;
+  border: solid 2px #b0daff;
+}
+.filterheader
+{
+  height: 25px;
+  background-color: #badeff;
+  text-align: left;
+  width: 670px;
+  color: #035b94;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+.filterpanelcontent
+{
+  background-color: #eaf6ff;
+  color: #4663bb;
+  width: 670px;
+  overflow: auto
+}
+.filterpanelcontainer
+{
+  height: 140px;
+  margin-top: 15px;
+}
+.imgcontainer
+{
+  margin-left: 10px;
+  float: left;
+}
+.filtercontrolscontainer
+{
+  float: left;
+  margin-left: 10px;
+}
+.combocontainer
+{
+  height: 60px;
+  width: 571px;
+}
+.buttoncontainer
+{
+  height: 22px;
+  margin-top: 30px;
+  clear: both;
+  width: 571px;
+}
+
+.filterdiv
+{
+  float: left;
+  width: 110px;
+}
+.filterbtn
+{
+  
+  float: left;
+}
+.filterclearbtn
+{
+  padding-left: 20px;
+  float: left;
+}
+.filtersearchbtndiv
+{
+  padding-left: 20px;
+  float: right;
+  height: 26px;
+  padding-right: 15px;
+}
+.searchtxtbox
+{
+  float: left;
+}
+.searchimgbtn
+{
+  float: left;
+  width: 20px;
+  padding-top: 0px;
+}
+.resultpane
+{
+  clear: both;
+}
+.resultpanehide
+{
+  display:none;
+}
+.resultgrid
+{
+    float: left;
+    width: 676px;
+    margin-left: 5px;
+    border: 1px solid #888d95;
+    margin-top: 20px;
+}
+
+.filterlabel
+{
+  color: #678FB3;
+  font-size: 11px;
+}
+.filtercombo
+{
+  color: #000000;
+}
+.filtercombo select
+{
+  width: 91px;
+}
+
+.headerstyle
+{
+  background-color: #f4f5f7;
+  text-align: left;
+  top: expression(this.offsetParent.scrollTop);
+  z-index: 10;
+}
+.headerstyle th
+{
+  padding-left: 5px;
+}
+.rowstyle
+{
+  background-color: #ffffff;
+}
+.rowstyle td
+{
+  padding-left: 5px;
+}
+.alternaterowstyle
+{
+  background-color: #ffffff;
+}
+.alternaterowstyle td
+{
+  padding-left: 5px;
+}
+
+.templatestyle
+{
+  text-align: right;
+}
+
+.unitsigncol
+{
+  text-align: right;
+}
+
+.accountpage
+{
+  float: left;
+  width: 685px;
+}
+.accountheader
+{
+  height: 60px;
+  width: 685px;
+}
+.loginicondiv
+{
+  height: 60px;
+  float: left;
+}
+.loginheaderdiv
+{
+  float: left;
+  height: 60px;
+}
+.loginheaderlabel
+{
+  height: 40px;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: bold;
+  color: Blue;
+}
+.loginheaderposition
+{
+  padding-top: 25px;
+}
+.loginheaderdottedline
+{
+  color: Blue;
+  height: 20px;
+  font-size: 20px;
+}
+.accountlogcontainer
+{
+  height: 500px;
+  margin-top: 10px;
+}
+
+.accountpaneldiv
+{
+  background-color: #eaf6ff;
+  float: left;
+  height: 340px;
+  width: 323px;
+  border: solid 2px #b0daff;
+}
+.logpanelmargin
+{
+  margin-left: 15px;
+}
+.accpanelmargin
+{
+  margin-left: 5px;
+}
+.panelheader
+{
+  height: 30px;
+  background-color: #badeff;
+  text-align: center;
+  margin-left: 0px;
+  color: #035b94;
+  font-size: 17px;
+  font-weight: bold;
+}
+.panelcontentcolor
+{
+  background-color: #eaf6ff;
+  color: #4663bb;
+  font-size: 12px;
+}
+.panelcontentmargin
+{
+  margin-left: 0px;
+}
+.panelcontentheader
+{
+  padding-left: 10px;
+  margin-top: 18px;
+  font-size: 12px;
+}
+.validationsummary
+{
+  font-size: 11px;
+  font-weight: bold;
+  height: 25px;
+  margin-top: 5px;
+  text-align: center;
+}
+.accbtn
+{
+  margin-top: 2px;
+  margin-left: 130px;
+}
+.logbtn
+{
+  margin-top: 34px;
+  margin-left: 130px;
+}
+.labelmsg
+{
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  height: 14px;
+  color: Red;
+}
+.requirecolor
+{
+  color: #4663BB;
+}
+
+
+.panelcontrolscontainer
+{
+  padding-left: 10px;
+  padding-top: 7px;
+}
+.panelcontroldiv
+{
+  height: 22px;
+  margin-top: 15px;
+}
+.panelcontrollabel
+{
+  float: left;
+  width: 120px;
+}
+.panelcontroltextbox
+{
+  float: left;
+  height: 22px;
+}
+.panelhyperlink
+{
+  margin-left: 130px;
+}
+
+.logincontrolpadding
+{
+  padding-top: 17px;
+}
+
+.specialitemcontainer
+{
+  /*background-color:#eaf6ff;*/
+  background-color: #D2D2D2;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+}
+.modalcontainerlayout
+{
+  width: 500px;
+  height: 420px;
+  border: solid 5px #b6ddff;
+}
+.modalheader
+{
+  width: 500px;
+  height: 30px;
+  background-color: #badeff;
+  margin-left: 0px;
+}
+.modalheaderstyle
+{
+  width: 400px;
+  float: left;
+  margin-left: 8px;
+  font-family: Tahoma;
+  color: #035b94;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+.modalclose
+{
+  float: right;
+  margin-top: 5px;
+  padding-right: 5px;
+}
+.modalcontent
+{
+  background-color: #EAF6FF;
+  height: 390px;
+  width: 500px;
+}
+.modalcontentcontrols
+{
+  height: 400px;
+  padding-top: 15px;
+}
+.modalcontentrow
+{
+  height: 25px;
+}
+.modalcontentrowmultitxtbox
+{
+  height: 60px;
+}
+.modalcontentrowmargin
+{
+  margin-top: 5px;
+}
+.modalcontentcolumn1
+{
+  width: 160px;
+  float: left;
+  margin-left: 15px;
+}
+.modalcontentcolumn2
+{
+  width: 320px;
+  float: left;
+}
+.floatleft
+{
+  float: left;
+}
+.floatright
+{
+  float: right;
+}
+.modalinnercol1
+{
+  width: 140px;
+}
+.modalinnercol2
+{
+  width: 180px;
+}
+.modalinnertextbox
+{
+  margin-right: 15px;
+}
+.specialitempanelbackgroundcolor
+{
+  background-color: #EAF6FF;
+}
+.modallabelcolor
+{
+  color: #035b94;
+}
+.modalbutton
+{
+  float: right;
+  margin-right: 15px;
+}
+
+.button
+{
+  width:120px;  
+}
+
+.shpCartCostDetail div
+{
+  width:70px;
+  text-align:right;
+}
+
+.shpCartCostDetail label
+{
+  width:50px;
+  text-align:right;
+}
+
+.shpCartCostDetailfont
+{
+	font-family:Tahoma;
+	font-size:11px;
+}
+.costdetailContainer
+{
+	float:right;
+}
+
+.shippingpaneldiv
+{
+  background-color: #eaf6ff;
+  float: left;
+  height: 490px;
+  width: 324px;
+  border: solid 2px #b0daff;
+}
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+
+
+
+
+#ContentPlaceHolder1_btnFilter,#ContentPlaceHolder1_btnClearBtn,#ContentPlaceHolder1_btnRemoveall,#ContentPlaceHolder1_btnUpdate,#ContentPlaceHolder1_btnAddSpecialItem,#ContentPlaceHolder1_btnEditInfo
+{
+    font-size: 10px;
+}
+#ContentPlaceHolder1_btnRemoveall,#ContentPlaceHolder1_btnUpdate,#ContentPlaceHolder1_btnAddSpecialItem,#ContentPlaceHolder1_btnEditInfo
+{
+    width: 100px;
+}
+#ContentPlaceHolder1_ResultPane
+{
+    float: left;
+    width: 674px;
+}
+#ContentPlaceHolder1_txtOrderRemark
+{
+    width: 384px;
+}
+
+#ContentPlaceHolder1_gvSpCart,#ContentPlaceHolder1_gvSpCart th,#ContentPlaceHolder1_gvSpCart td,
+#ContentPlaceHolder1_gvShoppingSpecial td,#ContentPlaceHolder1_gvShoppingSpecial th,
+#ContentPlaceHolder1_gvShoppingSpecial,#ContentPlaceHolder1_gvFiles,
+#ContentPlaceHolder1_gvFiles td
+{
+    border: 0px solid white;
+    font-family:Tahoma;
+    font-size:11px;
+}
+
+#ContentPlaceHolder1_gvFiles td
+{
+     border-bottom: 0px solid white;
+}
+.panelcontroltextbox input
+{
+    width: 160px;    
+}
+.panelcontroltextbox select
+{
+    width: 165px;    
+}
+.width676px
+{
+    width: 676px;
+}
+#ContentPlaceHolder1_chkAccount
+{
+    width: 12px;
+}

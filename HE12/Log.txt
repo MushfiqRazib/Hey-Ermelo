@@ -1,0 +1,213 @@
+At 28-03-2011 05:01:28 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    price_total,discount,remarks,prodnotes,to_edm,to_products,price_total)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'50','Stuks','0.08','0.08',
+                                                    discount,'test',:prodnotes, to_edm = '1',  to_products = '0',price_total = '50' * price_sell
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:02:40 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    price_total,discount,remarks,prodnotes,to_edm,to_products,price_total)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'50','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, to_edm = '0',  to_products = '0'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:04:36 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    price_total,discount,remarks,prodnotes,to_edm,to_products,price_total)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'50','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0', price_total = '50' * '0.08'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:05:49 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    price_total,discount,remarks,prodnotes,to_edm,to_products,price_total)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'50','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0', ('50' * '0.08')
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:06:21 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    price_total,discount,remarks,prodnotes,to_edm,to_products)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'50','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:31:07 message :ERROR: 42725: operator is not unique: unknown * unknown.Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,price_total)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'5','Stuks','0.08','0.08', '5' * '0.08'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:33:57 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    price_total,discount,remarks,prodnotes,to_edm,to_products)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'5','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:52:09 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    discount,remarks,prodnotes,to_edm,to_products)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'10','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 05:52:58 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    discount,remarks,prodnotes,to_edm,to_products)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'10','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 06:07:02 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    discount,remarks,prodnotes,to_edm,to_products)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'10','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0'
+                                                    from ws_order_items where item_id ='22'
+At 28-03-2011 06:08:00 message :ERROR: 42601: syntax error at or near ":".Update  Query:INSERT into ws_order_items(order_id,item_code,item_type,derived_from,description,suppl_code,quantity,units,price_cost,price_sell,
+                                                    discount,remarks,prodnotes,to_edm,to_products)
+                                                    Select order_id,item_code,'C',derived_from,'Zeskanttapbout M6 x 10 gegalv.',suppl_code,'10','Stuks','0.08','0.08',
+                                                    discount,'',:prodnotes, '0',  '0'
+                                                    from ws_order_items where item_id ='22'
+At 29-03-2011 04:24:09 message :ERROR: 42601: syntax error at or near ":".  Query:SELECT order_id,item_id,item_code,description,remarks,quantity,price_sell,
+                                                     price_total as Total,prodNotes  
+                                                     FROM ws_order_items WHERE item_type = 'S' 
+                                                     AND order_id = (SELECT order_id from ws_orders 
+                                                                where order_status = '-' 
+                                                                and cust_code=:cust_code)
+At 29-03-2011 04:28:02 message :ERROR: 42601: syntax error at or near ":".  Query:SELECT order_id,item_id,item_code,description,remarks,quantity,price_sell,
+                                                     price_total as Total,prodNotes  
+                                                     FROM ws_order_items WHERE item_type = 'S' 
+                                                     AND order_id = (SELECT order_id from ws_orders 
+                                                                where order_status = '-' 
+                                                                and cust_code=:cust_code)
+At 30-03-2011 04:55:07 message :ERROR: 23505: duplicate key value violates unique constraint "basematerial_pkey". Query:INSERT INTO basematerial(matcode,description,orderdescription,suppcode,prjcode,edmcode,unit,packunit,purchaseprice,
+			 discount1,discount2,freight,addon1,addon2,netprice,sellprice,sellperfect,orderdate,deliverydate,
+			 instock,minstock,maxstock,minorder,stockloc,sparepart,webshop,remark,mergecode,derivedfrom,remarkeng,
+			 keywords,filter1,filter2,filter3,filter4,filter5,new_suppcode,cust_code,matcode_suppl,deleted)
+                  VALUES('KLSPHEY110330','','','','','KLSPHEY110330','','','0',
+			 '0','0','0','0','0','0','0','0','3/30/2011','3/30/2011',
+			 '0','0','0','0','',0,1,'',1,'','',
+			 '','','','','','','','HEY','',0)
+At 30-03-2011 04:55:08 message :23505
+At 30-03-2011 04:55:08 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY110330','','','HEY','',
+                                                '','2011-03-30 16:55:08.780973','2011-03-30 16:55:08.780973','','',
+                                                '2011-03-30 16:55:08.780973','',0)
+At 30-03-2011 04:55:08 message :23505
+At 30-03-2011 04:55:10 message :ERROR: 23505: duplicate key value violates unique constraint "basematerial_pkey". Query:INSERT INTO basematerial(matcode,description,orderdescription,suppcode,prjcode,edmcode,unit,packunit,purchaseprice,
+			 discount1,discount2,freight,addon1,addon2,netprice,sellprice,sellperfect,orderdate,deliverydate,
+			 instock,minstock,maxstock,minorder,stockloc,sparepart,webshop,remark,mergecode,derivedfrom,remarkeng,
+			 keywords,filter1,filter2,filter3,filter4,filter5,new_suppcode,cust_code,matcode_suppl,deleted)
+                  VALUES('KLSPHEY110330','','','','','KLSPHEY110330','','','0',
+			 '0','0','0','0','0','0','0','0','3/30/2011','3/30/2011',
+			 '0','0','0','0','',0,1,'',1,'','',
+			 '','','','','','','','HEY','',0)
+At 30-03-2011 04:55:10 message :23505
+At 30-03-2011 04:55:10 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY110330','','','HEY','',
+                                                '','2011-03-30 16:55:10.405066','2011-03-30 16:55:10.405066','','',
+                                                '2011-03-30 16:55:10.405066','',0)
+At 30-03-2011 04:55:10 message :23505
+At 30-03-2011 04:55:14 message :ERROR: 23505: duplicate key value violates unique constraint "basematerial_pkey". Query:INSERT INTO basematerial(matcode,description,orderdescription,suppcode,prjcode,edmcode,unit,packunit,purchaseprice,
+			 discount1,discount2,freight,addon1,addon2,netprice,sellprice,sellperfect,orderdate,deliverydate,
+			 instock,minstock,maxstock,minorder,stockloc,sparepart,webshop,remark,mergecode,derivedfrom,remarkeng,
+			 keywords,filter1,filter2,filter3,filter4,filter5,new_suppcode,cust_code,matcode_suppl,deleted)
+                  VALUES('KLSPHEY110330','','','','','KLSPHEY110330','','','0',
+			 '0','0','0','0','0','0','0','0','3/30/2011','3/30/2011',
+			 '0','0','0','0','',0,1,'',1,'','',
+			 '','','','','','','','HEY','',0)
+At 30-03-2011 04:55:14 message :23505
+At 01-04-2011 04:18:37 message :Index and length must refer to a location within the string.
+Parameter name: length
+At 01-04-2011 04:18:37 message :Index and length must refer to a location within the string.
+Parameter name: length
+At 01-04-2011 04:27:28 message :Index and length must refer to a location within the string.
+Parameter name: length
+At 01-04-2011 04:35:06 message :Index and length must refer to a location within the string.
+Parameter name: length
+At 01-04-2011 04:39:23 message :Index and length must refer to a location within the string.
+Parameter name: length
+At 01-04-2011 04:44:34 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY1104011','','','HEY','',
+                                                '','2011-04-01 16:44:34.296045','2011-04-01 16:44:34.296045','','',
+                                                '2011-04-01 16:44:34.296045','',0)
+At 01-04-2011 04:44:34 message :23505
+At 01-04-2011 04:44:35 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY1104011','','','HEY','',
+                                                '','2011-04-01 16:44:35.330104','2011-04-01 16:44:35.330104','','',
+                                                '2011-04-01 16:44:35.330104','',0)
+At 01-04-2011 04:44:35 message :23505
+At 01-04-2011 04:44:36 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY1104011','','','HEY','',
+                                                '','2011-04-01 16:44:36.152151','2011-04-01 16:44:36.152151','','',
+                                                '2011-04-01 16:44:36.152151','',0)
+At 01-04-2011 04:44:36 message :23505
+At 01-04-2011 04:44:36 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY1104011','','','HEY','',
+                                                '','2011-04-01 16:44:36.736185','2011-04-01 16:44:36.736185','','',
+                                                '2011-04-01 16:44:36.736185','',0)
+At 01-04-2011 04:44:36 message :23505
+At 01-04-2011 04:44:49 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY1104011','','','HEY','',
+                                                '','2011-04-01 16:44:49.498915','2011-04-01 16:44:49.498915','','',
+                                                '2011-04-01 16:44:49.498915','',0)
+At 01-04-2011 04:44:49 message :23505
+At 01-04-2011 04:44:49 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY1104011','','','HEY','',
+                                                '','2011-04-01 16:44:49.532917','2011-04-01 16:44:49.532917','','',
+                                                '2011-04-01 16:44:49.532917','',0)
+At 01-04-2011 04:44:49 message :23505
+At 01-04-2011 04:44:49 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('HEY1104011','','','HEY','',
+                                                '','2011-04-01 16:44:49.559918','2011-04-01 16:44:49.559918','','',
+                                                '2011-04-01 16:44:49.559918','',0)
+At 01-04-2011 04:44:49 message :23505
+At 06-04-2011 01:12:18 message :There is no row at position 0.
+At 06-04-2011 03:43:53 message :There is no row at position 0.
+At 06-04-2011 03:57:31 message :There is no row at position 0.
+At 06-04-2011 04:01:21 message :There is no row at position 0.
+At 06-04-2011 04:11:33 message :There is no row at position 0.
+At 06-04-2011 04:16:58 message :There is no row at position 0.
+At 06-04-2011 04:16:58 message :There is no row at position 0.
+At 06-04-2011 04:16:58 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('','','','HEY','',
+                                                '','2011-04-06 16:16:58.853320','2011-04-06 16:16:58.853320','','',
+                                                '2011-04-06 16:16:58.853320','',0)
+At 06-04-2011 04:16:58 message :23505
+At 06-04-2011 04:16:59 message :There is no row at position 0.
+At 06-04-2011 04:16:59 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('','','','HEY','',
+                                                '','2011-04-06 16:16:59.081333','2011-04-06 16:16:59.081333','','',
+                                                '2011-04-06 16:16:59.081333','',0)
+At 06-04-2011 04:16:59 message :23505
+At 06-04-2011 04:16:59 message :There is no row at position 0.
+At 06-04-2011 04:16:59 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('','','','HEY','',
+                                                '','2011-04-06 16:16:59.286345','2011-04-06 16:16:59.286345','','',
+                                                '2011-04-06 16:16:59.286345','',0)
+At 06-04-2011 04:16:59 message :23505
+At 06-04-2011 04:16:59 message :There is no row at position 0.
+At 06-04-2011 04:16:59 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('','','','HEY','',
+                                                '','2011-04-06 16:16:59.488356','2011-04-06 16:16:59.488356','','',
+                                                '2011-04-06 16:16:59.488356','',0)
+At 06-04-2011 04:16:59 message :23505
+At 06-04-2011 04:16:59 message :There is no row at position 0.
+At 06-04-2011 04:16:59 message :ERROR: 23505: duplicate key value violates unique constraint "edm_rc_pkey". Query:INSERT INTO edm_rc(edm_code,description,revision,
+                                                cust_code,format,scale,first_published,last_published,
+                                                remarks,author,last_edited,last_edited_by,deleted)
+	                                            VALUES('','','','HEY','',
+                                                '','2011-04-06 16:16:59.678367','2011-04-06 16:16:59.678367','','',
+                                                '2011-04-06 16:16:59.678367','',0)
+At 06-04-2011 04:16:59 message :23505
+At 08-04-2011 11:55:51 message :There is no row at position 0.
+At 08-04-2011 12:05:51 message :There is no row at position 0.
